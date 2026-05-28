@@ -1,0 +1,873 @@
+{
+  "AppID": {
+    "dtype": "str",
+    "non_null": 122610,
+    "null_count": 1,
+    "null_pct": 0.0,
+    "n_unique": 121454,
+    "samples": [
+      "HelmetFire",
+      "Terry's Other Games",
+      "Maze Mania: The Ultimate 3D Maze Game",
+      "Devil's Toy",
+      "Noctem",
+      "HENTAI 18+",
+      "CAR TUNE: Project",
+      "BornWild • Versus S1 - Prologue",
+      "GrappleWell",
+      "The Catch: Carp & Coarse Fishing"
+    ],
+    "outliers": null
+  },
+  "Name": {
+    "dtype": "str",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 5081,
+    "samples": [
+      "May 7, 2025",
+      "Feb 18, 2025",
+      "Jan 16, 2020",
+      "Jun 26, 2025",
+      "Jun 12, 2014",
+      "May 20, 2024",
+      "Dec 2, 2024",
+      "Feb 13, 2020",
+      "Jul 18, 2017",
+      "Mar 12, 2015"
+    ],
+    "outliers": null
+  },
+  "Release date": {
+    "dtype": "str",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 14,
+    "samples": [
+      "0 - 20000",
+      "0 - 20000",
+      "0 - 0",
+      "0 - 20000",
+      "0 - 0",
+      "0 - 20000",
+      "200000 - 500000",
+      "0 - 20000",
+      "50000 - 100000",
+      "0 - 20000"
+    ],
+    "outliers": null
+  },
+  "Estimated owners": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 1110,
+    "samples": [
+      0,
+      0,
+      0,
+      29,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 19676,
+      "pct": 16.05
+    }
+  },
+  "Peak CCU": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 15,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 1272,
+      "pct": 1.04
+    }
+  },
+  "Required age": {
+    "dtype": "float64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 941,
+    "samples": [
+      11.04,
+      1.79,
+      1.24,
+      3.04,
+      0.99,
+      15.99,
+      3.99,
+      5.59,
+      6.99,
+      0.0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": -6.485,
+      "upper_bound": 12.275,
+      "count": 9297,
+      "pct": 7.58
+    }
+  },
+  "Price": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 88,
+    "samples": [
+      50,
+      33,
+      0,
+      0,
+      0,
+      0,
+      61,
+      40,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": -60.0,
+      "upper_bound": 100.0,
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "DiscountDLC count": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 117,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      1,
+      1
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 17771,
+      "pct": 14.49
+    }
+  },
+  "About the game": {
+    "dtype": "str",
+    "non_null": 114162,
+    "null_count": 8449,
+    "null_pct": 6.89,
+    "n_unique": 113556,
+    "samples": [
+      "ME: Ninja: Shadow of the Dash is a speedrunner. Just speedrun the whole game as fast as you can. You can train each Level in the Training mode but all levels together make up the actual Game. And there is a Hardcore mode where you have to restart at Level 1 if you die. But most fun is the normal game mode and trying to beat the whole game in a very fast time makes a lot of fun (it is fr, trust me, just buy the game). So it's basically all about speedrunning. ChatGPT: Overview: Ninja: Shadow of the Dash is a fun 2D speedrun platform game. The goal is to finish the game as fast as you can. Your only enemy is yourself as you race against the clock. Gameplay: Move quickly and react fast. Each passage needs good timing and precise moves. Jump, dash, and sprint to beat the game. Challenge: Ninja: Shadow of the Dash is very hard. It needs dedication and practice. Only the best gamers can master the game and finish the hardest levels quickly. Features: - Fast-Paced Action: Enjoy exciting levels that make you move quickly. - Precise Controls: Easy-to-use controls let you jump and dash perfectly. - High Difficulty: The game is challenging and will test your skills. - Self-Competition: Try to beat your best times again and again. - Addictive Gameplay: The mix of speed and challenge makes the game fun and replayable. Are you ready to test your skills and become the ultimate speedrunner? Play Ninja: Shadow of the Dash and find out!",
+      "◆　ゲームの内容　◆ 「バグダス - デバッガー検定 -」 は開発中のゲームのバグを見つける作業、 いわゆるデバッグ作業が体験できるゲームです。 本作には『架空のゲームの一場面』を収録した問題が8問用意されています。 どの問題にもバグが仕込まれているので、バグを探し出し、 各問題に設定された課題を達成するとクリアとなります。 ゲームを普通にプレイしていてはバグは見つかりません。 色々な操作や行動を行ってバグを見つけてください。 全ての問題をクリアすると、それまでの成績に応じて あなたのデバッガーランクが表示されます。 最高ランクを目指して頑張ってください！ ※対応コントローラー: XBOX ONE コントローラー / DUALSHOCKⓇ4 (USB接続のみ対応) ※プレイ前にゲーム内のマニュアルを一読することをオススメします ※収録しているゲームは架空のもので実在のゲームとは一切関係ありません",
+      "Coolbit is a endless synthwave color match game. Designed for synthwave lovers that want to enjoy cool music or just pastime. Can you beat your record by surviving for most time? Give it a try and enjoy the music! This is our first game and we definitely want to improve on our future ones. With the earnings of this game we hope to be able to make original soundtracks and create even more fun through new challanges and game modes. We highly appreciate your support on this journey!",
+      "You’ve landed on a mysterious island and unearthed a long forgotten card game. As you play, you begin to unravel clues to its origin, strategy, and hidden powers. Are you brave enough to push on and discover all of its secrets? Brave Hand is an original single-player card game about pushing your luck. Beautifully simple yet deeply strategic. As you play, you unlock the story of the Wanderer and the Guardian, depicted across 16 gorgeous hand-painted themes. An elegant design that combines the simplicity of classic card games like Solitaire and War, and the strategy of collectible card games. Brave Hand was inspired by the desire for a more strategic and exciting single player card game. The game takes the play style of solitaire, and enhance it with more competition, tension, and strategic decision making. It’s an endlessly fun game that will keep you guessing for years to come.",
+      "Explore an enchanting world of Cats in Boxes, filled with adorable cats and captivating puzzles. Each level has unique secrets and challenges. Explore and collect all the cats to complete your collection! Step into the intriguing world of cat puzzles! Solve puzzles from easy to very hard levels and discover ingenious ways to arrange the cats in boxes. Each level challenges you to find unique solutions! Collect a variety of adorable cats as you progress through the game! From small and playful kittens to large and elegant cats, each cat has its unique charm. Collect them all and complete your collection! Limitless and endless! Uncover the ongoing adventure in Cats in Boxes, where each level is a new challenge and a new adventure. Face obstacles, solve puzzles, and explore the fascinating world of cats!",
+      "－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－ This game was developed as part of new employee training at Byking Inc. Depending on your PC environment, you may experience some issues or bugs during play. We ask for your kind understanding should you encounter any such issues. A keyboard &amp; mouse, or controller setup is required for play. Thank you again for your understanding. －－－－－－－－－－－－－－－－－－－－－－－－－－－－－－ 〇Just what is 'Aim Beat Charm'? Imagine you're a rockin' cool guitarist. You're at a live show and see haters in the crowd. What d'you do? Charm their socks off! Take the stage in this first-person rock-rhythm shooter! ―Aim, Beat, Charm! Win over your haters, and let them know you ROCK!― 〇Just remember 3 things, hotshot: Search for 'em! Aim at 'em! And play for 'em! When the show starts, notes will appear in sync with the intense rock music! Different songs have different beats, so make sure not to fall behind! Don't miss the haters in the crowd. They pop-up constantly, and are visible by their blue-green aura. Deal with them before their numbers get out of control, 'cause... ...if you take too long they'll explode!? So not cool. Successfully charm a hater, and they'll be converted to a fan. Keep it up and the whole venue will be rockin', with totally rad lighting to match the vibe! C'mon hotshot, give 'em the best time ever! 〇The venue size changes with the difficulty A total of 10 tracks! 3 difficulties to choose from! The venue size increases when playing higher-difficulty songs. 〇Rock it! Totally FANGAGEMENT! 'Fangagement' is a totally cool ability that charms even the most hardened hater. Try it while jammin' out and watch them totally come around! It's like an ultimate, man. ―Win your fans over, and make your live show a rock 'n' rollin' good one!―",
+      "Set sail into the unknown in Atollo , a vibrant, pixel-art sea adventure where every journey is unique. Explore a shifting archipelago, meet goofy island dwellers, and battle rival ships to collect five magical eggs - your only key to awakening the kraken at the heart of the map. FEATURES 🗺️ Ever-changing map Explore a procedurally generated archipelago - no two voyages are the same. 🚢 Fast-paced naval combat Face off against enemy ships in tight, tactical battles on the open sea. 🌴 Bizarre island encounters Visit 5 random islands per run and meet one of 24 whimsical characters - from moons with sunglasses to haunted coffee pots. 🥚 The egg hunt begins Earn magical eggs from the islanders. Collect all five to summon your final challenge. 🐙 Face the kraken Unlock the center of the map and confront a colossal sea beast in a thrilling endgame battle. 📸 Progress artwork After each run, view a unique scene featuring the characters you’ve met - and silhouettes for those yet to be found. A GAME MADE WITH PICO-8 Atollo is a standalone desktop release built entirely in Pico-8 , a fantasy console for tiny retro games. Development on Pico-8 is a celebration of creative constraints, compact code, and playful design - and it’s free to play . ABOUT THE DEVELOPER Hello ! I'm Alberto and I'm a solo developer with a passion for expressive games :)) Atollo was created from start to finish by me, from the design and code to the art and audio, as a personal challenge and a way to grow as a game maker . I’m releasing Atollo for free with the goal of sharing something fun, goofy and replayable, while building a portfolio that can help me take the next step into the game development industry . If you enjoyed the game or have any feedback, I’d love to hear from you! :))",
+      "Story: On an urban legend forum, you befriended a user named 'Ashfall' who rarely spoke—until one day, Ashfall suddenly began confiding in you about the secrets of Linwood Academy: those people, that room, and... the disappearance of... 'her.' But before you could make sense of everything, Ashfall vanished without a trace. You decide to venture to Linwood Academy alone, searching for Ashfall and the truth about 'her.' But as your investigation deepens, you discover that the secrets buried within this school are far darker than any urban legend... You thought you'd be facing ghosts, but the most terrifying thing has always been the people. Key Features: Oppressive Horror Atmosphere - Immersive fear crafted through sound design, lighting, and environmental details Environmental Puzzles - Explore the abandoned campus and use items to solve hidden mechanisms and codes Fragmented Narrative - Piece together the complete truth from diary entries and remnants of the past Discord Channel:",
+      "Take down The Cube one block at a time and collect resources to improve your mining speed, health, and damage.  Use your experience to buy special items to increase your mining efficiency such as corrosive mites, giant worms, and mining lasers. Desktop Idle mode allows you to mine casually while performing other tasks. Destroy the Boss Cubes in order to become the mining master!",
+      "Adventure is calling! Choose your Mission and a Captain, Crew and Ship. Take Actions to advance through their story cards. Actions boost your Action Speed for this run, and completing cards increases it permanently. Once your Action Speed is high enough you will complete Missions, permanently increasing your Maximum Morale. Keep an eye out for positive events that will make the game clock run quicker. You may also invest in your Officers to speed up each run. But taking Actions costs Morale, and once it's depleted, you will experience a Mutiny and start a new run. Just how far will your crew follow you? Game Features Pursue 10 Mission paths to increase your Morale. Complete 10 Captain, 10 Crew and 10 Ship paths to increase your Action Speed. Select from 15 different Officers that give passive and active real-time speed bonuses. Gain permanent advantages each run to go further and faster. Click Events to speed up your run for certain kinds of Action. Automate your runs. Morale You will start each Mission with a finite amount of Morale. Once you run out of Morale you will experience a Mutiny. Complete Mission levels to increase your base Morale. Mission elements will auto-complete once you reach the necessary Action Speed. Action Speed Action Speed is how long a particular kind of Action will take to complete. Taking Actions of this type will temporarily increase this multiplier for the duration of a run. Completing levels of Captain, Crew and Ship cards will permanently increase this multiplier. Missions Select a Mission and complete its steps and cards by getting your Action Speed Multipliers high enough to earn permanent increases to your Maximum Morale. Captain, Crew and Ship You may choose your Captain, Crew and Ship before each Mission. Choose what would best serve the needs of your Mission in terms of what kinds of Action Speed bonuses they will give. Each level of card will take more Morale to complete, so consider progressing all your cards evenly. Plan The Actions you take will be stored and repeated in subsequent runs. You may modify or cancel your Plan at any time, or Cull the actions that are unnecessary for the completion of a card. All actions will be taken in the order listed: Officers first, then Captain, Crew and Ship by tier until you run out of Morale. Officers Your Officers will each give a cumulative 10% bonus to one kind of Action and a passive 10% penalty to another. You can increase this bonus by taking their Officer actions. If their Events are clicked they will double the speed of their Action type, speeding up your run. Events Throughout the game certain positive and negative Events will occur in the Mission area. Clicking on them will cause your game to run faster or slower for one Action type for 60 seconds. Your Officers will influence the Events you receive. Mutiny Once your Morale reaches zero a Mutiny will occur. Choose a new Captain, Crew, Ship and Mission and restart with the permanent Action Speed and Maximum Morale bonuses you have gained from your previous adventures. Re-spec Tips As your Action Speeds increase, consider changing out your Captain, Crew and Ship to help you with the changing needs of your Missions. Remember to choose appropriate supporting Officers. Also consider switching Missions if your Action Speed bonuses become better suited to completing the requirements of another Mission. All actions previously taken on any card will be remembered when you return to them at a future point."
+    ],
+    "outliers": null
+  },
+  "Supported languages": {
+    "dtype": "str",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 19113,
+    "samples": [
+      "['English']",
+      "['English']",
+      "['English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Arabic', 'Japanese', 'Korean', 'Portuguese - Brazil', 'Russian', 'Simplified Chinese', 'Traditional Chinese', 'Spanish - Latin America']",
+      "['English']",
+      "['English', 'French', 'German', 'Japanese', 'Simplified Chinese', 'Traditional Chinese']",
+      "['English']",
+      "['English']",
+      "['Russian', 'English', 'French', 'German', 'Spanish - Spain']",
+      "['English']",
+      "['English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Japanese', 'Russian']"
+    ],
+    "outliers": null
+  },
+  "Full audio languages": {
+    "dtype": "str",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 3710,
+    "samples": [
+      "['Simplified Chinese']",
+      "[]",
+      "[]",
+      "[]",
+      "['English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Japanese', 'Portuguese - Brazil', 'Russian', 'Traditional Chinese']",
+      "[]",
+      "[]",
+      "[]",
+      "[]",
+      "['English', 'French', 'Italian', 'German', 'Spanish - Spain', 'Arabic', 'Bulgarian', 'Portuguese - Brazil', 'Hungarian', 'Vietnamese', 'Greek', 'Danish', 'Indonesian', 'Spanish - Latin America', 'Traditional Chinese', 'Simplified Chinese', 'Korean', 'Dutch', 'Norwegian', 'Polish', 'Portuguese - Portugal', 'Romanian', 'Russian', 'Thai', 'Turkish', 'Ukrainian', 'Finnish', 'Czech', 'Swedish', 'Japanese', 'Azerbaijani', 'Albanian', 'Amharic', 'Armenian', 'Assamese', 'Afrikaans', 'Basque', 'Belarusian', 'Bangla', 'Bosnian', 'Valencian', 'Welsh', 'Wolof', 'Galician', 'Georgian', 'Gujarati', 'Dari', 'Zulu', 'Hebrew', 'Igbo', 'Irish', 'Icelandic', 'Yoruba', 'Kazakh', 'Kannada', 'Catalan', 'Quechua', 'Kinyarwanda', K'iche', 'Konkani', 'Xhosa', 'Khmer', 'Kyrgyz', 'Latvian', 'Lithuanian', 'Luxembourgish', 'Macedonian', 'Malay', 'Malayalam', 'Maltese', 'Maori', 'Marathi', 'Mongolian', 'Nepali', 'Odia', 'Punjabi (Gurmukhi)', 'Punjabi (Shahmukhi)', 'Persian', 'Serbian', 'Sotho', 'Sinhala', 'Sindhi', 'Slovak', 'Slovenian', 'Sorani', 'Swahili', 'Tajik', 'Tamil', 'Tatar', 'Telugu', 'Tigrinya', 'Tswana', 'Turkmen', 'Uzbek', 'Uyghur', 'Urdu', 'Filipino', 'Hausa', 'Hindi', 'Croatian', 'Cherokee', 'Scots', 'Estonian']"
+    ],
+    "outliers": null
+  },
+  "Reviews": {
+    "dtype": "str",
+    "non_null": 12070,
+    "null_count": 110541,
+    "null_pct": 90.16,
+    "n_unique": 11884,
+    "samples": [
+      "“'We laughed and had a great time taking turns hunting each other down or being the props'” Marooners' Rock",
+      "“The Pegasus Expedition shakes things up to great effect.” PCGamer",
+      "“The Invincible is as bold and smart as its protagonist, and I can only hope it starts a trend of equally thoughtful takes on big ideas from history and literature.” 80/100 – Shacknews “This game is a solid philosophical take on humanity and our right to explore the cosmos, cleverly wrapped up into a suspenseful and intriguing adventure(...)” 80/100 – PC Invasion “This is a striking and imaginative retelling of a vintage work that should once again leave us to consider the goals of technology, and the limits of our knowledge.” 77/100 – PC Gamer",
+      "“Stardrone carries on taunting you with its breathless pinball-breakout king of swing madness. It's a complex, abusive relationship, and one you should enter into with your eyes wide open.” 80 – Eurogamer “StarDrone is a great take on the action-puzzler sub genre. It looks fantastic and has a pumping, if slightly repetitive, soundtrack. With plenty of replay potential and a lot of well designed, imaginative levels to work through, this could keep you entertained for quite some time.” 80 – TheSixAxis “Our compulsion to keep playing 'just one more level' meant that our feelings and hands would get hurt along the way, but in the end we liked what we saw.” 80 – GamesRadar+",
+      "1 – 来自官方的塔罗牌评测交易指南和攻略 点击查看 1 – From the official Tarot card review trading guide and walkthrough click to view",
+      "“With its substantial content and a challenge to match, Achilles Survivor has enough to keep us busy for hours, and its artistic direction gives it a certain charm.” IGN France “Fast, frantic and impressively accessible, Achilles Survivor is a super entry in the bullet heaven genre. Thanks to a pleasant strategic streak, the gameplay is an absolute hoot.” TheSixthAxis “The journey takes you through the legendary locations of Greek mythology. From the ruins of Troy to the dark depths of Tartarus - the detailed environments not only offer a feast for the eyes, but also exciting challenges.” PixelCritics",
+      "“Hype...a unique and fun idea.” Hype or Yikes “A genuinely fun little puzzle game... a nice window into how AI currently thinks.” Leonardo's Curatorium of Gems “It made me smile a lot... It kept me playing even longer than I had imagined” Gamer Sessions",
+      "“They like Front Mission… total win!” Playstation Life Style “The turn based action in DUAL GEAR looks engaging and multifaceted.” Operationrainfall “Semi-Real Mecha square off in a satisfying plod.” Wargamer",
+      "“It’s wonderful” 5/5 – Pocket Tactics “It's demanding, thematic, and addictive, with deep layers of strategy and multiple ways to win.” 7/10 – Pocket Gamer",
+      "7.8 – gamespot 5 of 5 – adventureclassicgaming"
+    ],
+    "outliers": null
+  },
+  "Header image": {
+    "dtype": "str",
+    "non_null": 122530,
+    "null_count": 81,
+    "null_pct": 0.07,
+    "n_unique": 122420,
+    "samples": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3820660/72e8486b9d4e3346e31f321f4c2d9dd6ceae0d75/header.jpg?t=1763412818",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/718730/header.jpg?t=1676374639",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1328560/header.jpg?t=1601658465",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1839320/header.jpg?t=1703089781",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/394540/header.jpg?t=1492978215",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1601280/header.jpg?t=1723080007",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/17140/header.jpg?t=1447351490",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1506940/header.jpg?t=1730949203",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3854120/f4833013c787000bc016ac86190d35af29b61110/header.jpg?t=1763701243",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/867480/header.jpg?t=1728646907"
+    ],
+    "outliers": null
+  },
+  "Website": {
+    "dtype": "str",
+    "non_null": 49676,
+    "null_count": 72935,
+    "null_pct": 59.48,
+    "n_unique": 39703,
+    "samples": [
+      "https://www.eluhimsstudio.com/",
+      "https://zwiebelspiele.wordpress.com/",
+      "https://www.sokpop.co/",
+      "https://www.gamerzgamez.com/",
+      "https://kinnikuneko.com",
+      "http://www.fallentreegames.com/quellzen",
+      "https://www.hopeisfading.com",
+      "http://www.agrar-simulator.de/",
+      "http://katatema.main.jp/mu2/",
+      "https://www.kickstarter.com/projects/957008919/hunter-2"
+    ],
+    "outliers": null
+  },
+  "Support url": {
+    "dtype": "str",
+    "non_null": 54142,
+    "null_count": 68469,
+    "null_pct": 55.84,
+    "n_unique": 35393,
+    "samples": [
+      "imaginevr.io",
+      "https://www.nebularealms.com/contact",
+      "https:\\\\www.tigerqiuqiu.com",
+      "https://pix-arts.com",
+      "www.maogumaogu.com",
+      "http://pixel-fungames.com/",
+      "https://amucity.com/",
+      "www.livedesktop.cn",
+      "https://www.akdev.games/",
+      "https://mashupstudios.xyz"
+    ],
+    "outliers": null
+  },
+  "Support email": {
+    "dtype": "str",
+    "non_null": 100348,
+    "null_count": 22263,
+    "null_pct": 18.16,
+    "n_unique": 60515,
+    "samples": [
+      "vgpolyverse@gmail.com",
+      "fiassink@gmail.com",
+      "velest@hispeed.ch",
+      "coughedev@gmail.com",
+      "feedback@zoom-platform.com",
+      "mail@flukegames.com",
+      "sam128206378@gmail.com",
+      "contact@xenocidethegame.com",
+      "beatmonsofficial@gmail.com",
+      "mikhail.zverev@8floor.net"
+    ],
+    "outliers": null
+  },
+  "Windows": {
+    "dtype": "bool",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 2,
+    "samples": [
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true,
+      true
+    ],
+    "outliers": null
+  },
+  "Mac": {
+    "dtype": "bool",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 2,
+    "samples": [
+      false,
+      false,
+      false,
+      false,
+      true,
+      false,
+      true,
+      false,
+      false,
+      false
+    ],
+    "outliers": null
+  },
+  "Linux": {
+    "dtype": "bool",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 2,
+    "samples": [
+      false,
+      false,
+      true,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false,
+      false
+    ],
+    "outliers": null
+  },
+  "Metacritic score": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 73,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 4256,
+      "pct": 3.47
+    }
+  },
+  "Metacritic url": {
+    "dtype": "str",
+    "non_null": 4256,
+    "null_count": 118355,
+    "null_pct": 96.53,
+    "n_unique": 4160,
+    "samples": [
+      "https://www.metacritic.com/game/pc/necrovision?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/dropsy?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/brutal-legend?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/ravenlok?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/unforeseen-incidents?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/company-of-heroes?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/watchmen-the-end-is-nigh-part-2?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/dreamfall-chapters?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/wrath-aeon-of-ruin?ftag=MCD-06-10aaa1f",
+      "https://www.metacritic.com/game/pc/koira?ftag=MCD-06-10aaa1f"
+    ],
+    "outliers": null
+  },
+  "User score": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 31,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 40,
+      "pct": 0.03
+    }
+  },
+  "Positive": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 5540,
+    "samples": [
+      2,
+      0,
+      0,
+      0,
+      3,
+      225,
+      60,
+      5,
+      24,
+      12
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": -55.5,
+      "upper_bound": 92.5,
+      "count": 20797,
+      "pct": 16.96
+    }
+  },
+  "Negative": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 2725,
+    "samples": [
+      22,
+      0,
+      0,
+      4,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": -15.0,
+      "upper_bound": 25.0,
+      "count": 20696,
+      "pct": 16.88
+    }
+  },
+  "Score rank": {
+    "dtype": "float64",
+    "non_null": 40,
+    "null_count": 122571,
+    "null_pct": 99.97,
+    "n_unique": 3,
+    "samples": [
+      98.0,
+      99.0,
+      100.0,
+      100.0,
+      98.0,
+      100.0,
+      99.0,
+      98.0,
+      100.0,
+      99.0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 97.5,
+      "upper_bound": 101.5,
+      "count": 0,
+      "pct": 0.0
+    }
+  },
+  "Achievements": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 448,
+    "samples": [
+      11,
+      0,
+      0,
+      0,
+      11,
+      1,
+      5,
+      13,
+      16,
+      27
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": -28.5,
+      "upper_bound": 47.5,
+      "count": 8433,
+      "pct": 6.88
+    }
+  },
+  "Recommendations": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 5332,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      688,
+      397
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 20906,
+      "pct": 17.05
+    }
+  },
+  "Notes": {
+    "dtype": "str",
+    "non_null": 22458,
+    "null_count": 100153,
+    "null_pct": 81.68,
+    "n_unique": 18619,
+    "samples": [
+      "This game features consensual sexual contact between male, female and transgender characters.",
+      "Scary moments. Visual depiction of corpses. References to the occult. Psychological stress.",
+      "This game contains some brief, vulgar language and implied sexual content. There is also a reference to a same sex relationship. Recommended for teens and up.",
+      "Low resolution bloody violence",
+      "Crossfire: Sierra Squad contains the following mature-rated content: blood, intense violence featuring shooting human enemies, and occasional strong language.",
+      "This game features violence, blood and gore, coarse language, and suggestive themes.",
+      "Contains mature themes(alcohol consumption, mention of fictionalized drugs, mention of romantic relationship)",
+      "Domestic violence, consensual abuse, sexual abuse, psychological and verbal abuse, consensual physical violence, femdom humiliation, threats and intimidation, smothering, consensual sexual acts, female on male violence",
+      "Features explicit cartoon sex scenes with full nudity, including vaginal and anal penetration (all optional). All characters are over 21 years old. All scenes are consensual.",
+      "The black mansion includes bloodshed, such as being fragmented by a cog wheel or being stamped on a thorn when a character is caught in various traps."
+    ],
+    "outliers": null
+  },
+  "Average playtime forever": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 3037,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      58,
+      0,
+      0,
+      28,
+      0,
+      341
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 26119,
+      "pct": 21.3
+    }
+  },
+  "Average playtime two weeks": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 993,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 3898,
+      "pct": 3.18
+    }
+  },
+  "Median playtime forever": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 2511,
+    "samples": [
+      1264,
+      0,
+      0,
+      0,
+      0,
+      0,
+      781,
+      1288,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 26119,
+      "pct": 21.3
+    }
+  },
+  "Median playtime two weeks": {
+    "dtype": "int64",
+    "non_null": 122611,
+    "null_count": 0,
+    "null_pct": 0.0,
+    "n_unique": 993,
+    "samples": [
+      0,
+      0,
+      0,
+      0,
+      52,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": 0.0,
+      "upper_bound": 0.0,
+      "count": 3898,
+      "pct": 3.18
+    }
+  },
+  "Developers": {
+    "dtype": "str",
+    "non_null": 114174,
+    "null_count": 8437,
+    "null_pct": 6.88,
+    "n_unique": 70812,
+    "samples": [
+      "Philipp Lehner",
+      "BIT FOX DEN",
+      "Squid Shock Studios,Christopher Stair,Trevor Youngquist",
+      "Minicactus Games",
+      "Caleb Chalmers",
+      "Chapman Shoop",
+      "Komar Games",
+      "Fifth Edge Studios",
+      "Kipsaim(Mike) Delgado",
+      "Mighty Games"
+    ],
+    "outliers": null
+  },
+  "Publishers": {
+    "dtype": "str",
+    "non_null": 113702,
+    "null_count": 8909,
+    "null_pct": 7.27,
+    "n_unique": 62684,
+    "samples": [
+      "Eleven Puzzles",
+      "MassHive Media",
+      "Lucas Parise,Mind Flayer Studios",
+      "The Pixel Hunt",
+      "Shaikonina Games",
+      "Free Rabbit Games",
+      "Fire Cycle Games",
+      "Genene Game",
+      "Good Times Gaming",
+      "VRKiwi"
+    ],
+    "outliers": null
+  },
+  "Categories": {
+    "dtype": "str",
+    "non_null": 113658,
+    "null_count": 8953,
+    "null_pct": 7.3,
+    "n_unique": 13291,
+    "samples": [
+      "Single-player,Multi-player,MMO,PvP,Online PvP,Co-op,Online Co-op,Steam Achievements,Full controller support,Steam Trading Cards,In-App Purchases,Remote Play on TV",
+      "Single-player,Full controller support,Steam Trading Cards,Remote Play on TV,Family Sharing",
+      "Single-player,Multi-player,Co-op,Family Sharing",
+      "Single-player,Multi-player,PvP,Online PvP,LAN PvP,Shared/Split Screen PvP,Co-op,Online Co-op,LAN Co-op,Shared/Split Screen,Steam Achievements,Full controller support,VR Supported,Steam Workshop,In-App Purchases,Adjustable Difficulty,Keyboard Only Option,Playable without Timed Input,Stereo Sound,Surround Sound,Steam Cloud,HDR available,Family Sharing",
+      "Single-player",
+      "Single-player,Multi-player,Co-op,Online Co-op,Steam Achievements,Full controller support,Stats,Family Sharing",
+      "Single-player,Steam Achievements,Adjustable Difficulty,Save Anytime,Steam Cloud,Family Sharing",
+      "Single-player,Steam Achievements,Full controller support,Stats,Family Sharing",
+      "Single-player",
+      "Single-player,Steam Achievements,Custom Volume Controls,Mouse Only Option,Playable without Timed Input,Save Anytime,Steam Cloud,Family Sharing"
+    ],
+    "outliers": null
+  },
+  "Genres": {
+    "dtype": "str",
+    "non_null": 114198,
+    "null_count": 8413,
+    "null_pct": 6.86,
+    "n_unique": 2894,
+    "samples": [
+      "Adventure,Casual,Indie",
+      "Casual,Indie,Strategy",
+      "Action",
+      "Action,Casual,Indie,Early Access",
+      "Action,Indie,Massively Multiplayer,Early Access",
+      "Adventure,Casual",
+      "Action,Indie,Strategy",
+      "Action,RPG,Early Access",
+      "Action,Casual,Indie,Strategy",
+      "Adventure"
+    ],
+    "outliers": null
+  },
+  "Tags": {
+    "dtype": "str",
+    "non_null": 83346,
+    "null_count": 39265,
+    "null_pct": 32.02,
+    "n_unique": 77179,
+    "samples": [
+      "Match 3,Casual,Hidden Object,Card Game,Solitaire,Puzzle,Board Game,City Builder,Cute,Indie,Building,Family Friendly,Mystery,Singleplayer",
+      "Action,Casual,Sports,Arcade,Clicker,2D,Precision Platformer,Hand-drawn,Loot,Demons,Funny,Horror,Modern,Space,Gun Customization,Singleplayer",
+      "Animation & Modeling,Design & Illustration,Utilities,Software,Game Development",
+      "Adventure,Action,Simulation,Puzzle,VR,First-Person,Stylized,Cold War,Comedy,Horror,Investigation,Mystery,Retro,Singleplayer,Co-op,Multiplayer,Escape Room,Soundtrack",
+      "Early Access,Action,Action RPG,RPG,Anime,Side Scroller,Alternate History,War,Historical,Mythology,Hack and Slash,3D,Emotional,Magic,Retro,Fantasy,PvE,Linear,Combat,Controller",
+      "Stylized,2D Platformer,Souls-like,Colorful,Singleplayer,Hack and Slash,Fast-Paced,Platformer,Action,Spectacle fighter,Difficult,Character Action Game,Adventure,Beat 'em up,Demons,Cartoony,Atmospheric,Trains,Surreal,Dark Fantasy",
+      "Action,Indie,Early Access,Shoot 'Em Up,Bullet Hell,Arcade,Pixel Graphics,Top-Down Shooter,Top-Down,Shooter",
+      "Story Rich,Choices Matter,Zombies,Adventure,Choose Your Own Adventure,Singleplayer,Female Protagonist,Post-apocalyptic,Survival,Atmospheric,Horror,Violent,Drama,Action,Gore,Episodic,Comic Book,Point & Click,Mature,LGBTQ+",
+      "RPG,Action,Adventure,Indie,Early Access,VR",
+      "Horror,Survival Horror,Perma Death,Indie,Survival,First-Person,Stealth,Snow,Action,Atmospheric,Adventure,Singleplayer,Quick-Time Events,PvE,3D,Blood,Dark,Tactical,Realistic,Difficult"
+    ],
+    "outliers": null
+  },
+  "Screenshots": {
+    "dtype": "str",
+    "non_null": 116593,
+    "null_count": 6018,
+    "null_pct": 4.91,
+    "n_unique": 116483,
+    "samples": [
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_96e91dbc04bde5d889b8a3cab2008bb1a42c402a.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_7161f6d6406a2c127499384a6b6e091c863c281a.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_f179190f19f540952aaffbe9a371dfb9322f86d5.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_03a3d52f29ee83afc6d5963096953c6b4e45f59b.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_56addfea2ba11d8bcca9a81b74ae994d695a6039.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_8f50be8a63aea91ee688911757ea6748570cd51f.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_241a1c49770785de082e732194f5e215b12296a5.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_f5515801a3a5c6361ec06d15a6fe05d635ec128c.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_d3c9083685c35a60baecf98fa641d49ab7a57eef.1920x1080.jpg?t=1727862889,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/553790/ss_26721017e13ec669bc9bf17234656e35c9380d9c.1920x1080.jpg?t=1727862889",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2123060/ss_ec636f1510830ebba9740486329d5c9a1caa3d6c.1920x1080.jpg?t=1662551361",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/89f460d855e1b234c9c2ddb3833a2c5ee308c384/ss_89f460d855e1b234c9c2ddb3833a2c5ee308c384.1920x1080.jpg?t=1763256549,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/f37ce17d5b5b663c478e79226e79e1dba96c7d9c/ss_f37ce17d5b5b663c478e79226e79e1dba96c7d9c.1920x1080.jpg?t=1763256549,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/277447136c694e836caad34958bd898c3fbb46f1/ss_277447136c694e836caad34958bd898c3fbb46f1.1920x1080.jpg?t=1763256549,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/22bc7467a3fa62fad5a7d8e3d31de06ddd3d357c/ss_22bc7467a3fa62fad5a7d8e3d31de06ddd3d357c.1920x1080.jpg?t=1763256549,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/864cf7e3ac6053b53fa10149a7fd0d82ff3dc9ab/ss_864cf7e3ac6053b53fa10149a7fd0d82ff3dc9ab.1920x1080.jpg?t=1763256549,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/4054980/4001f1cc7917c13e77b8894aad733f05f3266a1a/ss_4001f1cc7917c13e77b8894aad733f05f3266a1a.1920x1080.jpg?t=1763256549",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773930/ss_1a43562c6d93a4780234660c04a540d60b34e637.1920x1080.jpg?t=1516379066,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773930/ss_e19e72029ec6f2c9f0c68884b19607f3002311a6.1920x1080.jpg?t=1516379066,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773930/ss_168130cccf059588fa45e5b5f2eba860ec39a0b9.1920x1080.jpg?t=1516379066,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773930/ss_446eee0a521d8df7324e3e85eabd7ef8735e350f.1920x1080.jpg?t=1516379066,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/773930/ss_66169efd550ae39982e79f985ff7b4662197ef95.1920x1080.jpg?t=1516379066",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_e5c1b5d902b4af0332f68ab9a9158b00f33c417b.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_bc00c14946590d939ea5b2f153a40962110266c9.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_8545ee317ec787fa04d2e34485076b2a353ed2b1.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_3c86c5afd9ea3d91444460ef2f10af0d13200837.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_9c938a3dd1db08fa2d3f7a225ebe45f3f00702c9.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_9546b8f92ef2e61c101c39c72c3dc31426f9f38d.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_0cd18c2e5b8ac50e81bca5d8f7180720c8f7500a.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_583c63aebfd0e7fb805b113c35b1538837a47d5e.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_af26abc6747c55464ad64db5491c2b94d861f236.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_e6f47b7fb70a56389653d8a4d3bfd881e2f66447.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_9d49f4625e04352bbf1272fe681382e38625b562.1920x1080.jpg?t=1717722705,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2506740/ss_d88f5686517157c41daf60df2586e9b074138fb1.1920x1080.jpg?t=1717722705",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_2491af52ee8d26768472b798b4407569d610ff99.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_30f3ac0fd4448569894a58713c48450dc7ef5b6a.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_92af2db1bb548222055ffa024383ba1175305249.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_6389dddead79d8cdd7302545fbbbd9ae8b933a43.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_3b04f4124fc0e132a65fc2342b09e9331156a026.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_de30d377971ae3d669079cb896241f3ab0ea94d9.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_68d248a2b18b62419e253a292d721b25bfe2d086.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_07763bc88d9bf4058c4155e25e7aa52f45755bdd.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_69ffe5f71b1c81a3c1c1b61c507b02e1b34a4ec9.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_b7829ac1553cc27226c3b3ef0955a6a5e6b7c8e6.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_c608ec9fb8db786932bbe921632cbc3ce054d90a.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_f46c230c881a0a782708fa45027e7b0647cbc9da.1920x1080.jpg?t=1601323078,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1270570/ss_5cfdea459a044828769db5de709470e3c6d8b426.1920x1080.jpg?t=1601323078",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085930/ss_e9e672c0af2a147b4a1769044fd88b121baa422f.1920x1080.jpg?t=1636091970,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085930/ss_c8b44a0db87dcc136a5d3da79cbb65b4572d641b.1920x1080.jpg?t=1636091970,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085930/ss_7f8c67c8b218052620272eeff43e68695f52f830.1920x1080.jpg?t=1636091970,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/1085930/ss_7f2f8f723513e1443186ebf5effe08bf548a348b.1920x1080.jpg?t=1636091970",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/8c3db1dda57f9b4bff6e623306ff8d2dafc9adbe/ss_8c3db1dda57f9b4bff6e623306ff8d2dafc9adbe.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/b68b8acd4dac8dc3ae84652da3fa00aa5a2e6215/ss_b68b8acd4dac8dc3ae84652da3fa00aa5a2e6215.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/7bcca9fb36952c954731567c59e0a63f004dcd2f/ss_7bcca9fb36952c954731567c59e0a63f004dcd2f.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/6d758267e529632f918a9b0d5925953d8c44adf8/ss_6d758267e529632f918a9b0d5925953d8c44adf8.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/a022e1fde4e54db28161f9b7c53f4b97e153ca0d/ss_a022e1fde4e54db28161f9b7c53f4b97e153ca0d.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/a9e50ba8cf215f0e4dd64dbc8b585d01c40e1a49/ss_a9e50ba8cf215f0e4dd64dbc8b585d01c40e1a49.1920x1080.jpg?t=1762493715,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/3726210/b902195c7b5da02019ec663a6e49c7c2f901c3b3/ss_b902195c7b5da02019ec663a6e49c7c2f901c3b3.1920x1080.jpg?t=1762493715",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_77868022065d1a0cf9de47b4570e4c14717ff348.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_a1f2b4cd36f18f0dbcee2e3d481bd3e37a20b124.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_7e76f199a743d23d7ebcf49682fbfd9c09d9cb98.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_3ed7ad5d8fc18e283180fd056919c08cdaa431c2.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_26c0c8eebe38249cda93cf6839b26d6c7d6fb579.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_2a3b932e63bae087f453d5e787d33f5e59c23321.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_459514dd3c8ee571a70f11e1687db41f6755be7c.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_db81e094ba2a85cdcc5a0a83db3e47142e1929d0.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_f27f72936813cf4901e599d0b3c84ede01c45752.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_8663b3f3eddfd56c8689f8bf2b8564d86df8bf76.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_24d53a9ca38ef02a4a1f7364254ff1ab8d1d888a.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_eb268968505bed9997ae0c2d93e12d4c06db36c3.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_ff939fbce966deb90aa12f34b0c39b74c04911b1.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_8a366d314dc187dff10f5ee3342014b4efc78e52.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_d3ea377ae90438d39bbde896d7a574113481ba93.1920x1080.jpg?t=1765091028,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/2816950/ss_291cfa6d91482e4581387b8f7cc394942de1fac9.1920x1080.jpg?t=1765091028",
+      "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_3bf152b57a6c4feb84cf1ddd42478f4802ceae2f.1920x1080.jpg?t=1614357660,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_9b00521b13ac8225987c140824868c23b2f7cbb8.1920x1080.jpg?t=1614357660,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_6814154a29d997f53bb50ae6a2bfd3012eeb8ed4.1920x1080.jpg?t=1614357660,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_be5c6ec7c6a76dde2bf01c4e3c17b0ff644f91a5.1920x1080.jpg?t=1614357660,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_67dd2e7bc11445f89875c4bbca80f11810769441.1920x1080.jpg?t=1614357660,https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/618510/ss_c3fd92fbe416164bb605c5874af0ada9962edf44.1920x1080.jpg?t=1614357660"
+    ],
+    "outliers": null
+  },
+  "Movies": {
+    "dtype": "float64",
+    "non_null": 0,
+    "null_count": 122611,
+    "null_pct": 100.0,
+    "n_unique": 0,
+    "samples": [],
+    "outliers": {
+      "method": "IQR",
+      "lower_bound": NaN,
+      "upper_bound": NaN,
+      "count": 0,
+      "pct": 0.0
+    }
+  }
+}
